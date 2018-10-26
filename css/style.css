@@ -1,0 +1,135 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    color: white;
+    overflow: hidden;
+}
+
+body {
+    height: 100%;
+    background-color: #7371FC;
+}
+
+ul {
+    list-style: none;
+}
+
+a, a:active, a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 20px 20px 0px 20px;
+    padding: 0;
+}
+
+#logo a img {
+    height: 25px;
+}
+
+#wordmark {
+    font-family: 'Myriad Pro', sans-serif;
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.playhard {
+    font-family: 'Myriad Pro', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.nav li:last-child {
+    margin-left: auto;
+}
+
+.heading-container {
+    margin-left: 24px;
+    padding: 0;
+}
+
+#heading, .sub-heading {
+    margin: 0;
+    padding: 0;
+}
+
+#heading {
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    margin-top: 77px;
+}
+
+.sub-heading {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.cta {
+    padding: 0;
+    border: none;
+    background-color: #6DE378;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    width: 125px;
+    height: 35px;
+    text-align: center;
+    border-radius: 1000px;
+    margin: 50px 0 0 0;
+}
+
+.cta:hover, .cta:focus, .cta:active {
+    cursor: pointer;
+    background-color: rgb(83, 204, 95);
+}
+
+.illustration {
+    overflow: hidden;
+    margin: 20px 0 0 0;
+    width: 40vw;
+    position: absolute;
+    right: 0;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: #CDC1FF;
+    margin: 0;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+}
+
+.footer a, footer a:active, footer a:visited {
+    color: #7371FC;
+}
+
+#f_wordmark {
+    font-family: 'Myriad Pro', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 15px auto 15px 15px;
+}
+
+.f_playhard {
+    font-family: 'Myriad Pro', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0;
+    margin-right: 15px;
+    margin: 15px 15px 15px 0;
+}
